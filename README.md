@@ -50,7 +50,7 @@ Threshold Logic
 ---
 
 ## 📂 Структура проекта
-
+```
 demo/
 ├── .env.example
 ├── .env
@@ -80,7 +80,7 @@ demo/
 └── scripts/
 ├── build_index.py
 └── eval.py
-
+```
 
 ---
 
@@ -149,7 +149,7 @@ python -m scripts.eval
 4. Запуск Telegram-бота
 ```
 python -m src.bot
-```
+
 ---
 
 ## 🤖 Поведение бота
