@@ -33,7 +33,7 @@
 
 ## 🏗 Архитектура решения
 
-variants.csv
+```variants.csv
 ↓
 Sentence Embeddings
 ↓
@@ -43,7 +43,7 @@ Threshold Logic
 │
 ├─→ confident → FAQ answer
 └─→ not confident → operator
-
+```
 
 Дополнительно применяется фильтрация общих и панических запросов до этапа NLP.
 
@@ -134,7 +134,8 @@ TELEGRAM_BOT_TOKEN=your_token_here
 
 1. Установка зависимостей
 
-```python -m venv .venv
+```
+python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
