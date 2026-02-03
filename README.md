@@ -33,7 +33,8 @@
 
 ## 🏗 Архитектура решения
 
-```variants.csv
+```
+variants.csv
 ↓
 Sentence Embeddings
 ↓
